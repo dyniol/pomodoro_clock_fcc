@@ -1,0 +1,25 @@
+.timer {
+  background: darkgray;
+  border-radius: 10px;
+  border: 1px solid #e0b612;
+  padding: 10px;
+  width: 60%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width: 576px) {
+    width: 80%;
+    margin-top: 0;
+  }
+  #time-left {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+  .timer-control {
+    display: flex;
+    button, div {
+      margin: 10px
+    }
+  }
+}
